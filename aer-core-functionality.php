@@ -3,7 +3,7 @@
  * Plugin Name: AbbyERyan.com  Core Functionality
  * Plugin URI: https://github.com/CapWebSolutions/aer-core-functionality
  * Description: This contains all this site's core functionality so that it is theme independent. 
- * Version: 2.0.0
+ * Version: 2.0.1
  * Author: Cap Web Solutions
  * Author URI: https://capwebsolutions.com
  * Github Plugin URI: https://github.com/CapWebSolutions/aer-core-functionality/
