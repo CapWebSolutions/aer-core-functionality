@@ -3,7 +3,7 @@
  * Plugin Name: AbbyERyan.com  Core Functionality
  * Plugin URI: https://github.com/CapWebSolutions/aer-core-functionality
  * Description: This contains all this site's core functionality so that it is theme independent. 
- * Version: 2.0.1
+ * Version: 2.0.2
  * Author: Cap Web Solutions
  * Author URI: https://capwebsolutions.com
  * Github Plugin URI: https://github.com/CapWebSolutions/aer-core-functionality/
@@ -27,15 +27,8 @@
   define( 'CORE_FUNCTION_URL', $plugin_url );
   define( 'CORE_FUNCTION_DIR', plugin_dir_path( __FILE__ ) );
 
-// General. This should always be used. 
-// include_once( CORE_FUNCTION_DIR . '/lib/functions/general.php' );
-
 // Define needed Custom Post Types.
 include_once( CORE_FUNCTION_DIR . '/lib/functions/post-types.php' );
 
 // Define Custom Meta boxes.
 include_once( CORE_FUNCTION_DIR . '/lib/functions/metaboxes.php' );
-
-// Set up templates for new post type
-// add_filter( 'archive_template', 'aer_core_functionality_load_archive_template' );
-// add_filter( 'single_template', 'aer_core_functionality_load_single_template' );
