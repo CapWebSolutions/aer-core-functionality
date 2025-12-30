@@ -8,11 +8,6 @@
  *
  */
 
-remove_action( 'genesis_entry_header', 'genesis_do_post_image', 1 );
-remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
-remove_action( 'genesis_entry_content', 'genesis_do_post_content');
-
-add_action( 'genesis_entry_header', 'aer_archive_writing_sample_info', 10 );
 function aer_archive_writing_sample_info() {
 	global $post;
 	$prefix = '_aer-';
@@ -53,5 +48,3 @@ function aer_archive_writing_sample_info() {
 
 	printf( '<article class="writing-entry">%s</article>', $writing_sample_entry  );
 }
-
-genesis();

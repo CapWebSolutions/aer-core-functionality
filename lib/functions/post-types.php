@@ -53,9 +53,6 @@ $args = array (
 	'supports' => array(
 		'title',
 		'editor',
-		// 'thumbnail',
-		// 'excerpt',
-		'genesis-cpt-archives-settings',
 	),
 	'taxonomies' => array(
 		'category',
